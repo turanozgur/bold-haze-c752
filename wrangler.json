@@ -1,0 +1,30 @@
+{
+  "name": "bold-haze-c752",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "small-tooth-5bc6-d1",
+      "database_id": "6f8f377e-3d25-47f6-8e57-07860276e7a6"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "bold-haze-c752-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
